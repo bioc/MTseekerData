@@ -1,2 +1,2 @@
 # MTseekerData
-some BAM files for ExperimentHub
+Supporting Data for the MTseeker Package
