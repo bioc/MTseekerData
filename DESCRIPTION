@@ -1,0 +1,19 @@
+Package: MTseekerData
+Type: Package
+Title: Supporting Data for the MTseeker Package
+Description: Provides supporting data for the MTseeker package vignette. 
+Version: 0.99.5
+Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
+             email = "tim.triche@gmail.com"),
+             person("Noor", "Sohail", role = "aut",
+             email = "Noor.Sohail@vai.org"),
+             person("Ben", "Johnson", role = "ctb",
+             email = "Ben.Johnson@vai.org"))
+License: Artistic-2.0
+Depends: R (>= 3.5), ExperimentHub, AnnotationHub
+Suggests: GenomicRanges, Rsamtools, VariantAnnotation, gmapR, MTseeker
+Imports: MTseeker
+biocViews: ExperimentData, Genome
+VignetteBuilder: knitr
+NeedsCompilation: no
+RoxygenNote: 6.1.0
