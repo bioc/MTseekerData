@@ -11,7 +11,7 @@ Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "Ben.Johnson@vai.org"))
 License: Artistic-2.0
 Depends: R (>= 3.5), ExperimentHub, AnnotationHub
-Suggests: GenomicRanges, Rsamtools, VariantAnnotation, gmapR, MTseeker
+Suggests: GenomicRanges, Rsamtools, VariantAnnotation, gmapR, MTseeker, xml2
 Imports: MTseeker
 biocViews: ExperimentData, Genome
 VignetteBuilder: knitr
