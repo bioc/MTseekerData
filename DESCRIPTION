@@ -12,7 +12,7 @@ Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
 License: Artistic-2.0
 Depends: R (>= 3.5)
 Suggests: GenomicRanges, VariantAnnotation, gmapR, xml2
-Imports: MTseeker
+Imports: GenomicRanges
 biocViews: ExperimentData, Genome
 VignetteBuilder: knitr
 NeedsCompilation: no
