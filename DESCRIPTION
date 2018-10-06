@@ -10,10 +10,11 @@ Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              person("Ben", "Johnson", role = "ctb",
              email = "Ben.Johnson@vai.org"))
 License: Artistic-2.0
-Depends: R (>= 3.5), ExperimentHub, AnnotationHub
-Suggests: GenomicRanges, Rsamtools, VariantAnnotation, gmapR, MTseeker, xml2
+Depends: R (>= 3.5)
+Suggests: GenomicRanges, VariantAnnotation, gmapR, xml2
 Imports: MTseeker
 biocViews: ExperimentData, Genome
 VignetteBuilder: knitr
 NeedsCompilation: no
 RoxygenNote: 6.1.0
+Encoding: UTF-8
