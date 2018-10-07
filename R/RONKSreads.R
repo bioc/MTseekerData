@@ -7,7 +7,9 @@
 #' @format An MAlignmentsList object, which subclasses GAlignmentsList
 #' @source \url{https://www.ncbi.nlm.nih.gov/bioproject/PRJNA271036/}
 #' 
+#' @import IRanges
 #' @import MTseeker
+#' @import GenomeInfoDb
 #' 
 #' @examples
 #' library(MTseeker)

@@ -9,12 +9,17 @@ Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "Noor.Sohail@vai.org"),
              person("Ben", "Johnson", role = "ctb",
              email = "Ben.Johnson@vai.org"))
+Author: Tim Triche, Jr; Noor Sohail; Ben Johnson
+Maintainer: Tim Triche, Jr. <tim.triche@gmail.com>
 License: Artistic-2.0
-Depends: R (>= 3.5)
-Imports: GenomicRanges, MTseeker
-Suggests: gmapR, xml2, rtracklayer, Homo.sapiens, Mus.musculus
+Depends: R (>= 3.5), MTseeker
+Imports: GenomicRanges, 
+         GenomicFeatures, 
+         VariantAnnotation, 
+         Homo.sapiens,
+         MTseeker
+Suggests: gmapR, xml2, rtracklayer
 biocViews: ExperimentData, Genome
-VignetteBuilder: knitr
 NeedsCompilation: no
 RoxygenNote: 6.1.0
 Encoding: UTF-8
