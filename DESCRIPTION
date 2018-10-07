@@ -11,8 +11,8 @@ Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "Ben.Johnson@vai.org"))
 License: Artistic-2.0
 Depends: R (>= 3.5)
-Suggests: gmapR, xml2, rtracklayer
 Imports: GenomicRanges, MTseeker
+Suggests: gmapR, xml2, rtracklayer, Homo.sapiens, Mus.musculus
 biocViews: ExperimentData, Genome
 VignetteBuilder: knitr
 NeedsCompilation: no
