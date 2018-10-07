@@ -1,8 +1,8 @@
 Package: MTseekerData
 Type: Package
 Title: Supporting Data for the MTseeker Package
-Description: Provides supporting data for the MTseeker package vignette. 
-Version: 0.99.5
+Description: Provides examples for the MTseeker package vignette. 
+Version: 0.99.7
 Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "tim.triche@gmail.com"),
              person("Noor", "Sohail", role = "aut",
@@ -11,8 +11,8 @@ Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "Ben.Johnson@vai.org"))
 License: Artistic-2.0
 Depends: R (>= 3.5)
-Suggests: GenomicRanges, VariantAnnotation, gmapR, xml2
-Imports: GenomicRanges
+Suggests: gmapR, xml2
+Imports: GenomicRanges, MTseeker
 biocViews: ExperimentData, Genome
 VignetteBuilder: knitr
 NeedsCompilation: no
