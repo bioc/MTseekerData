@@ -19,6 +19,6 @@ This object was produced by applying MTseeker::callMT(RONKSreads).
 library(MTseeker)
 data(RONKSvariants)
 show(RONKSvariants)
-subset(RONKSvariants, PASS == TRUE)
+endoapply(RONKSvariants, subset, PASS == TRUE)
 }
 \keyword{datasets}
