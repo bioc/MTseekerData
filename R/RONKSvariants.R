@@ -12,5 +12,5 @@
 #' library(MTseeker)
 #' data(RONKSvariants)
 #' show(RONKSvariants)
-#' subset(RONKSvariants, PASS)
+#' subset(RONKSvariants, PASS == TRUE)
 "RONKSvariants"

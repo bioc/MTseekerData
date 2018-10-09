@@ -6,6 +6,14 @@
 \usage{
 .onAttach(lib, pkgname = "MTseekerData")
 }
+\arguments{
+\item{lib}{the library}
+
+\item{pkgname}{the package name}
+}
+\value{
+nothing, it's a package
+}
 \description{
 Data for the MTseeker package examples.
 }

@@ -2,6 +2,10 @@
 
 export(.onAttach)
 import(GenomeInfoDb)
+import(GenomicFeatures)
 import(GenomicRanges)
+import(Homo.sapiens)
 import(IRanges)
 import(MTseeker)
+import(VariantAnnotation)
+importFrom(utils,data)

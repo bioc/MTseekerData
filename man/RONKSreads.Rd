@@ -18,8 +18,6 @@ exome BAMs, aligned against hg19_rCRSchrM (i.e. GRCh37 with UCSC contigs).
 }
 \examples{
 library(MTseeker)
-data(RONKSreads)
 show(RONKSreads)
-coverage(RONKSreads)
 }
 \keyword{datasets}

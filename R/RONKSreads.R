@@ -13,7 +13,5 @@
 #' 
 #' @examples
 #' library(MTseeker)
-#' data(RONKSreads)
 #' show(RONKSreads)
-#' coverage(RONKSreads)
 "RONKSreads"
