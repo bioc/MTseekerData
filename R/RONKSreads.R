@@ -13,5 +13,6 @@
 #' 
 #' @examples
 #' library(MTseeker)
+#' data(RONKSreads)
 #' show(RONKSreads)
 "RONKSreads"
