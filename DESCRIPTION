@@ -2,7 +2,7 @@ Package: MTseekerData
 Type: Package
 Title: Supporting Data for the MTseeker Package
 Description: Provides examples for the MTseeker package vignette. 
-Version: 0.99.10
+Version: 0.99.11
 Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "tim.triche@gmail.com"),
              person("Noor", "Sohail", role = "aut",
@@ -13,7 +13,8 @@ Author: Tim Triche, Jr; Noor Sohail; Ben Johnson
 Maintainer: Tim Triche, Jr. <tim.triche@gmail.com>
 License: Artistic-2.0
 Depends: R (>= 3.5)
-Imports: IRanges, 
+Imports: utils,
+         IRanges, 
          GenomeInfoDb,
          GenomicRanges, 
          GenomicFeatures, 
