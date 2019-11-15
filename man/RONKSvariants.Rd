@@ -13,7 +13,8 @@ RONKSvariants
 }
 \description{
 RONKS == "Renal Oncocytoma, Normal Kidney Sample" matched by patient
-This object was produced by applying MTseeker::callMT(RONKSreads).
+This object was produced by applying MTseeker::callMT() to PRJNA271036. 
+An updated version called with pileupMT() will be added presently.
 }
 \examples{
 library(MTseeker)
