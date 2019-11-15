@@ -2,7 +2,7 @@ Package: MTseekerData
 Type: Package
 Title: Supporting Data for the MTseeker Package
 Description: Provides examples for the MTseeker package vignette. 
-Version: 1.5.0
+Version: 1.5.1
 Authors@R: c(person("Tim", "Triche", role = c("aut","cre"),
              email = "tim.triche@gmail.com"),
              person("Noor", "Sohail", role = "aut",
@@ -21,7 +21,7 @@ Imports: utils,
          VariantAnnotation, 
          Homo.sapiens,
          MTseeker
-Suggests: gmapR, xml2, rtracklayer
+Suggests: xml2, rtracklayer
 biocViews: ExperimentData, Genome
 NeedsCompilation: no
 RoxygenNote: 6.1.0
